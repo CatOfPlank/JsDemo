@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         hello world
+// @name         Hello world
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  try to take over the world!
