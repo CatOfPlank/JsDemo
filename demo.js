@@ -10,7 +10,8 @@
 // @license      AGPL-3.0
 // @grant        none
 // ==/UserScript==
-
+var username = '普朗克小猫';
+var password = '5201314Liang.'
 (function() {
     'use strict';
     if(!document.querySelector("#ls_username"))//已经登录
@@ -18,12 +19,10 @@
         return ;
     }
     else{
-
-        document.querySelector("#ls_username").value = '普朗克小猫'; //your username
-        document.querySelector("#ls_password").value = '5201314liang.'; //your password
-        document.querySelector("#ls_cookietime").checked = true; //Auto Login
-        document.querySelector(".fastlg_l button").click(); //class use "."
-
-    }
+          document.querySelector("#ls_username").value = username; //your username
+           document.querySelector("#ls_password").value = password; //your password
+            document.querySelector("#ls_cookietime").checked = true; //Auto Login
+             document.querySelector(".fastlg_l button").click(); //class use "."
+      }
     
 })();
