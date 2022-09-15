@@ -11,7 +11,7 @@
 // @grant        none
 // ==/UserScript==
 var username = '普朗克小猫';
-var password = '5201314Liang.'
+var password = '5201314Liang.';
 (function() {
     'use strict';
     if(!document.querySelector("#ls_username"))//已经登录
